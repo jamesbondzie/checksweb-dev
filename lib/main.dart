@@ -15,7 +15,6 @@ void main() {
 
 class MyApp extends StatelessWidget {
   final title = 'checks';
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -26,7 +25,6 @@ class MyApp extends StatelessWidget {
       ),
       home: MyHomePage(
         channel: HtmlWebSocketChannel.connect('ws://localhost:8080/ws-web'),
-       // channel: HtmlWebSocketChannel.connect('ws://fierce-brook-45549.herokuapp.com/ws-web'),
       ),
     );
   }

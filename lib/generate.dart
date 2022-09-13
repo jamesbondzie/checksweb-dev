@@ -47,6 +47,7 @@ class GeneratePageState extends State<GeneratePage> {
             ),
             Padding(
               padding: EdgeInsets.fromLTRB(40, 20, 40, 0),
+              // ignore: deprecated_member_use
               child: FlatButton(
                 padding: EdgeInsets.all(15.0),
                 onPressed: () async {
